@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+   
+    
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }  
+        /* first container navbar start */
+     .container-fluid {
+      height: 10vh;
+      width: 100%;
+        display: flex;
+        background-color: black;
+        position: fixed;
+    }
+     .row .nav ul {
+        list-style: none;
+        display: flex; 
+    }
+    .text-white{
+        margin-top: 10px;
+        margin-left: 5rem;
+        margin-right: 20rem;
+        font-size: 30px;
+        color: white;
+    }
+    .text-white:hover{
+      color: goldenrod;
+    }
+    .home{
+        color: goldenrod;
+    }
+    li{
+        color: white;
+        margin-top: 20px;
+        margin-left: 2rem;
+    }
+    li:hover{
+        color: goldenrod;
+    }
+     li a{
+      text-decoration: none;
+     }
+    .btn{
+        color: white;
+        margin-left: 10rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 7px 25px;
+        border: 1px solid white;
+          border-radius: 25%;
+          font-size: 20px;
+          background-color: goldenrod;
+    }
+    .btn:hover{
+        color: goldenrod;
+        background-color: white;
+    }
+        /* navbar end */
+        /* home page first image  start*/
+    .container{
+       height: 100vh;
+      background-image: url(image/a1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+        width: 100%;
+    } 
+    .resturand{
+      color: white;
+      padding-top: 10rem;
+      margin-left: 8rem;
+    }
+    .resturand .btn1{
+        color: white;
+        background-color: goldenrod;
+         border:2px solid goldenrod;
+         margin-top: 2rem;
+         font-size: 1rem;
+         padding: 10px 25px;
+         border-radius: 25%;
+    }
+         /* home page first image end */
+         /* home page container1 start */
+     .container1{
+      display: flex;
+      height: 50vh;
+    width: 80%;
+    margin: 30px 130px;
+    justify-content: space-evenly;
+     align-items: center;
+     }
+    .container1 .col{
+      color: white;
+      margin-left: 25px;
+      display: flex;
+      background-color: black;
+    }
+    .container1 .col img{
+      height: 25vh;
+      margin: 15px 10px ;
+      border-radius: 45%;
+    }
+    .container1 .col h1{
+      margin-top: 20px;
+      margin-left: 8px;
+    }
+    .but{
+      display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: 0px 15px;
+    color: wheat;
+    font-size:20px ;
+        background-color: goldenrod;
+       border-radius: 20%;
+    }
+    .but:hover{
+      color: goldenrod;
+      background-color: white;
+    }
+    /* home page ontainer1 end */
+    .menu{
+      color: goldenrod;
+     margin-left: 33rem;
+       font-size: 30px;
+    }
+    /* our menu css */
+    .page ul{
+      list-style: none;
+      font-size: 20px;
+      display: flex;
+     justify-content: center;
+    } 
+    .page ul .line:hover{
+      color: goldenrod;
+      background-color: black;
+      padding: 8px;
+      border-radius: 10%;
+    }
+    /* our menu end */
+    /* food section */
+    .box{
+      display: flex;
+      margin: 3rem 5rem;
+    }
+   .box .col1{
+    margin-left: 3rem;
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.767);
+   }
+   .box .col1 img{
+    margin-left: 10px;
+   }
+   .box .col1 h3{
+   padding-top: 5px;
+    text-align: center;
+   }
+   .box .col1 .lorem{
+    color: white;
+   }
+   .box .col1 .rs{
+     color:goldenrod;
+     margin: 8px 10px;
+   }
+   .box .col1 .delivery{
+    color: white;
+    margin-left: 13rem;
+    padding:9px;
+    border-radius: 50%;
+    background-color:goldenrod;
+   }
+   .box .col1 .delivery:hover{
+    color: goldenrod;
+    background-color: white;
+   }
+   /* food factpry css end */
+  
+</style>
+<body> 
+  <!-- navbar start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="nav">
+              <ul>
+                <h4 class="text-white" >Taste</h4>
+                <a href="./index.html">  <li class="home">HOME</li></a>
+                <a href="./burger.html"> <li>Burger</li></a>
+                <a href="./piza.html"> <li>piza</li></a>
+                <a href="./pasta.html"> <li>Pasta</li></a>
+                <a href="./sandwitch.html"> <li>Sandwitch</li></a>
+                 <button class="btn">Click Here</button>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+     <!-- first home page start image -->
+   <div class="container">
+        <div class="resturand">
+           <h1>Fast food restutand</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing<br>Lorem ipsum dolor sit amet consectetur adipisicing<br>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+           <button class="btn1">Click Here</button>
+        </div>
+   </div>
+        <!-- first image end -->
+         <!-- rounder image -->
+      <div class="container1">
+            <div class="col">
+                <img src="image/a3.jpg" alt="">
+                <h1>Today is 20% off</h1><br>
+                <button class="but">BUY</button>
+            </div>
+            <div class="col">
+                <img src="image/a3.jpg" alt="">
+                <h1>Today is 20% off</h1>
+                <button class="but">BUY</button>
+            </div>
+      </div> 
+      <!-- rounded image end -->
+      <!-- our menu -->
+       <i class="menu">OUR MENU</i>
+         <div class="page">
+             <ul>
+              <li><a href="" class="line">All</a></li>
+              <li><a href="burger.html" class="line">Burger</a></li>
+              <li><a href="piza.html" class="line" >piza</a></li>
+              <li><a href="pasta.html" class="line">pasta</a></li>
+              <li><a href="sandwitch.html" class="line">sandwitch</a></li>
+             </ul>
+         </div>
+         <!-- our menu end -->
+              <!-- food factory -->
+         <div class="food">
+          <div class="box">
+              <div class="col1">
+                  <img src="/image/p3.jpg" width="300px" height="200px">
+                   <h3>Delicious vegetable piza</h3>
+                   <p class="lorem" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                   <h4 class="rs">RS:$19<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+              </div>
+              <div class="col1">
+                  <img src="/image/p2.jpg" width="300px" height="200px">
+                  <h3>Delicious vegetable piza</h3>
+                  <p class="lorem" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                  <h4 class="rs">RS:$22<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+              </div>
+              <div class="col1">
+                  <img src="/image/p1.jpg" width="300px" height="200px">
+                  <h3>Delicious vegetable piza</h3>
+                  <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                  <h4 class="rs">RS:$27<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+              </div>
+          </div>
+          <div class="box">
+              <div class="col1">
+                  <img src="/image/s3.jpg" width="300px" height="200px">
+                  <h3>Delicious creamy sandwitch</h3>
+                  <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                  <h4 class="rs">RS:$15<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+              </div>
+              <div class="col1">
+                  <img src="/image/s1.jpg" width="300px" height="200px">
+                  <h3>Delicious creamy sandwitch</h3>
+                  <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                  <h4 class="rs">RS:$16<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+              </div>
+              <div class="col1">
+                  <img src="/image/s2.jpg" width="300px" height="200px">
+                  <h3>Delicious creamy sandwitch</h3>
+                  <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                  <h4 class="rs">RS:$24<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+              </div>
+          </div>
+          <div class="box">
+            <div class="col1">
+                <img src="/image/pa1.jpg" width="300px" height="200px">
+                <h3>Delicious spicey Pasta</h3>
+                <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                <h4 class="rs">RS:$17<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+            </div>
+            <div class="col1">
+                <img src="/image/pa2.jpg" width="300px" height="200px">
+                <h3>Delicious spicey Pasta</h3>
+                <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                <h4 class="rs">RS:$18<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+            </div>
+            <div class="col1">
+                <img src="/image/pa3.jpg" width="300px" height="200px">
+                <h3>Delicious spicey Pasta</h3>
+                <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+                <h4 class="rs">RS:$22<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+            </div>
+        </div>
+        <div class="box">
+          <div class="col1">
+              <img src="/image/b1.jpg" width="300px" height="200px">
+              <h3>Delicious spicey burger</h3>
+              <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+              <h4 class="rs">RS:$8<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+          </div>
+          <div class="col1">
+              <img src="/image/b2.jpg" width="300px" height="200px">
+              <h3>Delicious spicey burger</h3>
+              <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+              <h4 class="rs">RS:$10<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+          </div>
+          <div class="col1">
+              <img src="/image/b4.jpg" width="300px" height="200px">
+              <h3>Delicious spicey burger</h3>
+              <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure temporibus labore </p>
+              <h4 class="rs">RS:$14<i class="fa fa-shopping-cart delivery" aria-hidden="true"></i></h4>
+          </div>
+      </div>
+      </div>
+   <!-- food factory end -->
+      
+   
+</body>
+</html>
